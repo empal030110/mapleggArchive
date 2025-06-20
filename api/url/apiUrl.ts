@@ -38,6 +38,11 @@ export const statUrl = (ocid: string) => {
     const url = `유저 스탯 url`;
     return url;
 };
+export const setUrl = (ocid: string) => {
+    // 장착중인 세트 효과
+    const url = `유저 세트 효과 url`;
+    return url;
+}
 
 // notice
 export const noticeUrl = `공지 url`; // 공지
