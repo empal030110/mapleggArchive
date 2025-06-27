@@ -43,6 +43,11 @@ export const setUrl = (ocid: string) => {
     const url = `유저 세트 효과 url`;
     return url;
 }
+export const abilityUrl = (ocid: string) => {
+    // 어빌리티 정보
+    const url = `어빌리티 정보 url`;
+    return url;
+}
 
 // notice
 export const noticeUrl = `공지 url`; // 공지
